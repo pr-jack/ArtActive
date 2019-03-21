@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "OpenSansLight";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/OpenSansLight.woff2") format("woff2"),
+      url("../fonts/OpenSansLight.woff") format("woff"),
+      url("../fonts/OpenSansLight.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "OpenSansRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/OpenSansRegular.woff2") format("woff2"),
+      url("../fonts/OpenSansRegular.woff") format("woff"),
+      url("../fonts/OpenSansRegular.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "OpenSansSemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/OpenSansSemiBold.woff2") format("woff2"),
+      url("../fonts/OpenSansSemiBold.woff") format("woff"),
+      url("../fonts/OpenSansSemiBold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "OpenSansBold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/OpenSansBold.woff2") format("woff2"),
+      url("../fonts/OpenSansBold.woff") format("woff"),
+      url("../fonts/OpenSansBold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "OpenSansExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/OpenSansExtraBold.woff2") format("woff2"),
+      url("../fonts/OpenSansExtraBold.woff") format("woff"),
+      url("../fonts/OpenSansExtraBold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "MullerMedium";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/MullerMedium.woff2") format("woff2"),
+      url("../fonts/MullerMedium.woff") format("woff"),
+      url("../fonts/MullerMedium.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "MullerExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/MullerExtraBold.woff2") format("woff2"),
+      url("../fonts/MullerExtraBold.woff") format("woff"),
+      url("../fonts/MullerExtraBold.eot?#iefix") format("embedded-opentype");
+}

@@ -1,0 +1,108 @@
+.main-header {
+  height: 941px;
+  background: url("../img/bg_header.jpg");
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 65px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+.main-nav__logo {
+  padding-right: 120px;
+  font-family: "OpenSansExtraBold", "Arial", sans-serif;
+  font-size: 18px;
+}
+
+.main-nav__list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 485px;
+  list-style: none;
+
+  &--link{
+    font-family: "OpenSansSemiBold", "Arial", sans-serif;
+    font-size: 13px;
+    color: $primary-color;
+  }
+
+  &--phone {
+    padding-left: 30px;
+    font-family: "OpenSansBold", "Arial", sans-serif;
+    font-size: 16px;
+  }
+
+  &--button {
+    padding: 8px 20px;
+    font-family: "OpenSansExtraBold", "Arial", sans-serif;
+    font-size: 11px;
+    background: transparent;
+    border: 2px solid $primary-color;
+    border-radius: 18px;
+    text-transform: uppercase;
+  }
+}
+
+.header-content {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 95px;
+  width: 1170px;
+  justify-content: space-between;
+  color: $primary-color;
+
+  &--image {
+    margin-left: -85px;
+  }
+
+  &--text {
+    padding-right: 20px;
+  }
+
+  &--title {
+    width: 377px;
+    font-family: "MullerExtraBold", "Arial", sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+
+  &--description {
+    padding-top: 50px;
+    width: 430px;
+    font-family: "MullerMedium", "Arial", sans-serif;
+    font-size: 32px;
+  }
+
+  &--button {
+    padding: 0 40px;
+    width: 255px;
+    font-family: "OpenSansBold", "Arial", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #fb0275;
+    border: none;
+    border-radius: 25px;
+  }
+
+  &--wrapper {
+    display: flex;
+    padding-top: 70px;
+  }
+
+  &--inscription {
+    padding-left: 30px;
+    width: 240px;
+    font-family: "OpenSansRegular", "Arial", sans-serif;
+    font-size: 16px;
+  }
+}
