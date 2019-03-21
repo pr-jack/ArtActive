@@ -1,0 +1,35 @@
+.about {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.about__text {
+  padding-left: 75px;
+
+  &--title {
+    font-family: "MullerBold", "Arial", sans-serif;
+    font-size: 30px;
+    color: #7f38bd;
+  }
+
+  &--slogan {
+    padding-top: 50px;
+    width: 360px;
+    font-family: "MullerMedium", "Arial", sans-serif;
+    font-size: 32px;
+    color: #383d52;
+  }
+
+  &--description {
+    padding-top: 50px;
+    width: 515px;
+    font-family: "OpenSansRegular", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5e606a;
+
+    p {
+      padding-bottom: 25px;
+    }
+  }
+}

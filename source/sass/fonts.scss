@@ -59,6 +59,16 @@
 }
 
 @font-face {
+  font-family: "MullerBold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/MullerBold.woff2") format("woff2"),
+      url("../fonts/MullerBold.woff") format("woff"),
+      url("../fonts/MullerBold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
   font-family: "MullerExtraBold";
   font-style: normal;
   font-weight: 800;
