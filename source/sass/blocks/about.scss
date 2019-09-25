@@ -1,15 +1,15 @@
 .about {
-  padding-top: 110px;
+  padding-top: 115px;
   padding-bottom: 110px;
 }
 
 .about__text {
-  padding-left: 75px;
+  padding-left: 86px;
 
   &--title {
     font-family: "MullerBold", "Arial", sans-serif;
     font-size: 30px;
-    color: #7f38bd;
+    color: $font-color-title;
   }
 
   &--slogan {
@@ -17,7 +17,7 @@
     width: 360px;
     font-family: "MullerMedium", "Arial", sans-serif;
     font-size: 32px;
-    color: #383d52;
+    color: $font-color-slogan;
   }
 
   &--description {
@@ -26,7 +26,7 @@
     font-family: "OpenSansRegular", "Arial", sans-serif;
     font-size: 14px;
     line-height: 24px;
-    color: #5e606a;
+    color: $font-color-description;
 
     p {
       padding-bottom: 25px;

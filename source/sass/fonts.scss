@@ -9,6 +9,16 @@
 }
 
 @font-face {
+  font-family: "OpenSansItalic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/OpenSansItalic.woff2") format("woff2"),
+      url("../fonts/OpenSansItalic.woff") format("woff"),
+      url("../fonts/OpenSansItalic.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
   font-family: "OpenSansRegular";
   font-style: normal;
   font-weight: 400;
@@ -76,4 +86,14 @@
   src: url("../fonts/MullerExtraBold.woff2") format("woff2"),
       url("../fonts/MullerExtraBold.woff") format("woff"),
       url("../fonts/MullerExtraBold.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "MyriadProRegular";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/MyriadProRegular.woff2") format("woff2"),
+      url("../fonts/MyriadProRegular.woff") format("woff"),
+      url("../fonts/MyriadProRegular.eot?#iefix") format("embedded-opentype");
 }

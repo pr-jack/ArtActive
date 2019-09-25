@@ -1,5 +1,5 @@
 .main-header {
-  height: 941px;
+  padding-bottom: 136px;
   background: url("../img/bg_header.jpg");
 }
 
@@ -17,9 +17,10 @@
 }
 
 .main-nav__logo {
-  padding-right: 120px;
+  padding-right: 100px;
   font-family: "OpenSansExtraBold", "Arial", sans-serif;
   font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .main-nav__list{
@@ -37,13 +38,14 @@
   }
 
   &--phone {
-    padding-left: 30px;
+    padding-left: 36px;
     font-family: "OpenSansBold", "Arial", sans-serif;
     font-size: 16px;
+    letter-spacing: 0.8px;
   }
 
   &--button {
-    padding: 8px 20px;
+    padding: 8px 25px;
     font-family: "OpenSansExtraBold", "Arial", sans-serif;
     font-size: 11px;
     background: transparent;
@@ -62,11 +64,13 @@
   color: $primary-color;
 
   &--image {
-    margin-left: -85px;
+    margin-top: -19px;
+    margin-left: -95px;
   }
 
   &--text {
-    padding-right: 20px;
+    padding-top: 30px;
+    letter-spacing: 3px;
   }
 
   &--title {
@@ -77,21 +81,15 @@
   }
 
   &--description {
-    padding-top: 50px;
-    width: 430px;
+    padding-top: 34px;
+    width: 470px;
     font-family: "MullerMedium", "Arial", sans-serif;
     font-size: 32px;
+    letter-spacing: 0;
   }
 
-  &--button {
-    padding: 0 40px;
-    width: 255px;
-    font-family: "OpenSansBold", "Arial", sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    background: #fb0275;
-    border: none;
-    border-radius: 25px;
+  &--button-wrapper {
+    padding-top: 5px;
   }
 
   &--wrapper {
@@ -100,9 +98,12 @@
   }
 
   &--inscription {
-    padding-left: 30px;
-    width: 240px;
+    padding-top: 5px;
+    padding-left: 43px;
+    width: 300px;
     font-family: "OpenSansRegular", "Arial", sans-serif;
     font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
   }
 }

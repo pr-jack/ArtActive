@@ -1,0 +1,100 @@
+.wrapper-service {
+  justify-content: space-between;
+}
+
+.service {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background: #faf8fb;
+}
+
+.service__text {
+  width: 473px;
+
+  &--title {
+    margin-top: -3px;
+    font-family: "MullerBold", "Arial", sans-serif;
+    font-size: 30px;
+    color: $font-color-title;
+  }
+
+  &--slogan {
+    padding-top: 74px;
+    padding-bottom: 47px;
+    width: 410px;
+    font-family: "MullerMedium", "Arial", sans-serif;
+    font-size: 32px;
+    color: $font-color-slogan;
+  }
+
+  &--description {
+    padding-top: 50px;
+    width: 515px;
+
+
+    p {
+      padding-bottom: 25px;
+    }
+  }
+}
+
+.service__text-list {
+  margin: 0;
+  padding: 0;
+  margin-left: 8px;
+  font-family: "OpenSansRegular", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: $font-color-description;
+}
+
+.service__quesciotn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+  padding-top: 30px;
+  padding-left: 39px;
+  background: #883eca;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 23px 32px 0px rgba(81, 8, 86, 0.33);
+
+  &--text {
+    padding-bottom: 38px;
+  }
+
+  &--question {
+    font-family: "OpenSansItalic", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  &--answer {
+    font-family: "MyriadProRegular", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+  }
+
+  &--button-wrapper {
+    padding-right: 37px;
+  }
+}
+
+.service__image {
+  padding-top: 110px;
+
+  &--content {
+    border-radius: 10px;
+    box-shadow: 0px 23px 32px 0px rgba(81, 8, 86, 0.33);
+  }
+
+  &--description {
+    padding-top: 31px;
+    padding-left: 282px;
+    font-family: "OpenSansRegular", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: $font-color-description;
+  }
+}
