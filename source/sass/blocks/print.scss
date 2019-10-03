@@ -1,0 +1,46 @@
+.print {
+  position: relative;
+  height: 1040px;
+  padding-top: 90px;
+}
+
+.print__image {
+  padding-top: 100px;
+
+  &--content {
+    width: 540px;
+  }
+}
+
+.print__text {
+  padding-left: 45px;
+
+  &--slogan {
+    padding-top: 50px;
+    width: 410px;
+    font-family: "MullerMedium", "Arial", sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: $font-color-slogan;
+  }
+
+  &--description {
+    padding-top: 50px;
+    padding-bottom: 28px;
+    width: 515px;
+    font-family: "OpenSansRegular", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: $font-color-description;
+
+    p {
+      padding-bottom: 25px;
+    }
+  }
+}
+
+.print-overlay {
+  position: absolute;
+  right: 50px;
+  bottom: 82px;
+}
