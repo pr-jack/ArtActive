@@ -5,15 +5,17 @@
 }
 
 .print__image {
-  padding-top: 100px;
+  position: absolute;
+  bottom: 250px;
 
   &--content {
-    width: 540px;
+    width: 900px;
   }
 }
 
 .print__text {
-  padding-left: 45px;
+  display: inline-block;
+  text-align: left;
 
   &--slogan {
     padding-top: 50px;
@@ -39,8 +41,10 @@
   }
 }
 
-.print-overlay {
-  position: absolute;
-  right: 50px;
-  bottom: 82px;
+.wrapper-print {
+  margin: 0 auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: right;
 }
